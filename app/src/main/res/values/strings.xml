@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="PREF_TOKEN">test</string>
+</resources>
