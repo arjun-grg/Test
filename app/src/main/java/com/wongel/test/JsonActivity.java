@@ -30,6 +30,7 @@ public class JsonActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_json);
 
+
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("http://fakerestapi.azurewebsites.net/api/")
                 .addConverterFactory(GsonConverterFactory.create(new Gson()))
