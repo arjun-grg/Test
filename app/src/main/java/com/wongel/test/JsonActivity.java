@@ -24,13 +24,14 @@ import retrofit2.converter.scalars.ScalarsConverterFactory;
 import retrofit2.http.Body;
 
 public class JsonActivity extends AppCompatActivity {
+    //master
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_json);
 
-        
+ 
         //this is master
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("http://fakerestapi.azurewebsites.net/api/")
